@@ -8,15 +8,19 @@
 .bg-color-name-title {
     background-color: #676767;
 }
-.ui-menu-color-home{
+
+.ui-menu-color-home {
     background-color: #e67e22;
 }
+
 .ui-menu-color-resume {
     background-color: #9b59b6;
 }
+
 .ui-menu-color-contact {
     background-color: #3498db;
 }
+
 .ui-menu-color-download {
     background-color: #525252;
 }
@@ -25,7 +29,8 @@
 header {
     margin: 0;
 }
-.heading{
+
+.heading {
     margin-left: 50px;
 }
 
@@ -39,14 +44,16 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-.name{
+
+.name {
     font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
 }
-.title{
+
+.title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -54,34 +61,45 @@ header {
     margin-bottom: 90px;
     color: #ffffff;
 }
-.list-inline-item:not(:last-child){
+
+.list-inline-item:not(:last-child) {
     margin: 0;
 }
-.menucontainer{
+
+.menucontainer {
     font-size: 0;
 }
-#nav li{
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
     font-size: 14px;
     padding: 0;
 }
-.menuitem{
+
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
 }
-.menuitem a{
+
+.menuitem a {
     width: 100%;
     text-decoration: none;
     color: white;
     height: 120px;
 }
-.menuitem a i{
+
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 22px;
 }
-.menuitem span{
+
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
