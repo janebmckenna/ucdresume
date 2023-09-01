@@ -43,6 +43,14 @@
 .bg-color-contact{
     background-color: #fff;
 }
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
 /* -------------- special paddings/margins/text*/
 h1,
 h2,
