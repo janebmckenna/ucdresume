@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("i8ZCLJ4_OvXAxB2WN");
+    })();
+    </script>
     <title>Jane McKenna</title>
 
 </head>
@@ -61,10 +69,10 @@
                 <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
                 <h5 class="uppercase text-center">Let's work together!</h5>
                 <div class="center-form">
-                    <form>
-                        <input type="text" class="form-control" placeholder="First name" id="firstname">
-                        <input type="text" class="form-control" placeholder="Last name" id="lastname" required>
-                        <input type="email" class="form-control" placeholder="Email Address" id="emailaddress" required>
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name='firstname' class="form-control" placeholder="First name" id="firstname">
+                        <input type="text" name='lastname' class="form-control" placeholder="Last name" id="lastname" required>
+                        <input type="email" name='emailaddress' class="form-control" placeholder="Email Address" id="emailaddress" required>
                         <textarea name="projectsummary" id="projectsummary" rows="5" placeholder="Project description" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
@@ -120,6 +128,7 @@
         </div>
 
     </footer>
+    <script src="assets/js/sendemail.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
