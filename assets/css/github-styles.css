@@ -21,6 +21,7 @@ textarea {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     outline: none;
+    margin: auto;
 }
 
 blockquote,
@@ -58,7 +59,7 @@ img {
 #search-area {
     display: block;
     max-width: 70%;
-    margin: 0 auto;
+    margin: auto;
     background: #fff;
     padding: 15px 25px;
     -webkit-box-shadow: 1px 2px 3px -1px rgba(0, 0, 0, 0.4);
@@ -162,6 +163,8 @@ img {
 
 #gh-username {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px 8px;
     font-size: 1.4em;
     color: #666;
